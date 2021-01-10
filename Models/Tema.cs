@@ -25,6 +25,8 @@ namespace Goron_Melisa_Proiect_Medii.Models
 
         public int ClasaID { get; set; }
         public Clasa Clasa { get; set; }
+
+        [Display(Name = "Disciplina")]
         public ICollection<TemaDisciplina> TemaDiscipline { get; set; }
 
     }
